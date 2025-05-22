@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: #FFF8F8;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  /* font-weight: 200;
+  font-style: normal; */
+}
+
+
+.container {
+    max-width: 1000dvw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin: 20px 0;
+    text-align: center;
+    small {
+      font-size: 0.5em;
+    }
+  }
+  
+  .col-12{
+    width: 1vw;
+    height: 1vh;
+  }
+
+  .btn:hover{
+    transform: scale(1.1);
+  }
+
+  .responsive-table {
+    li {
+      border-radius: 3px;
+      padding: 25px 30px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 25px;
+    }
+    .table-header {
+      background-color: #FFECDB;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .table-row {
+      background-color: #ffffff;
+      box-shadow: 0px 0px 32px 0px rgba(0,0,0,0.1);
+    }
+
+    .table-row:hover{
+      transform: scale(1.05);
+      cursor: pointer;
+    }
+
+    .col-1 {
+      flex-basis: 5%;
+    }
+    .col-2 {
+      flex-basis: 7%;
+    }
+    .col-3 {
+      flex-basis: 7%;
+    }
+    .col-4{
+      flex-basis: 10%;
+    }
+    .col-5{
+      flex-basis: 10%;
+    }
+    .col-6{
+      flex-basis: 10%;
+    }
+    .col-7{
+      flex-basis: 10%;
+    }
+    .col-8{
+      flex-basis: 10%;
+    }
+    .col-9{
+      flex-basis: 10%;
+    }
+    .col-10{
+      flex-basis: 7%;
+    }
+
+    .col-11{
+      flex-basis: 15%;
+      gap: 1em;
+      /* border: 3px solid red; */
+    }
+
+  }

@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  background-color: #FFF8F8;
+  font-family: "Poppins", sans-serif;
+  /* width: 100vw; */
+  /* font-weight: 100;
+  font-style: normal; */
+
+}
+
+.awal{
+  text-decoration: none;
+  color: black !important;
+  transform: scale(1.15);
+}
+
+.kategori:hover {
+  transition: 0.23s;
+  color: black !important;
+  transform: scale(1.15);
+  
+}
+
+.buku:hover{
+  color: black !important;
+  transform: scale(1.15);
+  transition: 0.23s;
+}
+
+.akun:hover {
+  color: black !important;
+  transform: scale(1.15);
+  transition: 0.23s;
+}
+
+.login:hover {
+  transform: scale(1.06);
+  transition: 0.24s;
+  color: black;
+}
+
+.Image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050;
+  width: 15%;
+  height: 10%;
+  text-align: center;
+}
+
+.kartu {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  /* border:4px solid rgba(0, 0, 0, 0.678); */
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  height: 50vh;
+  width: 95vw;
+  overflow: hidden;
+  /* padding: 2em; */
+  background-size: cover;
+  /* background-image: url(../images/Test6.png); */
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.log {
+  background-color: #FFECDB;
+  height: 100%;
+  width: 50%;
+  /* border: 3px solid red; */
+  position: relative;
+
+}
+
+.isiact {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.log:hover .isiact {
+    transform: scale(1.5);
+    transform: translate(-50%, -50%) scale(1.5);
+    transition: 0.35s ease-in-out;
+    cursor: pointer;
+  }
+
+
+.pinjam {
+  background-color: #FAF6E9;
+  height: 100%;
+  width: 50%;
+  /* border: 3px solid red; */
+  position: relative;
+
+}
+
+.isipnjm {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.pinjam:hover .isipnjm{
+    transform: translate(-50%, -50%) scale(1.35);
+    transition: 0.35s ease-in-out;
+    cursor: pointer;
+}
+
+.tes {
+  background-color: aliceblue;
+  height: 50%;
+  width: 50%;
+}
+
+.ap {
+  background-color: black;
+  height: 50%;
+  width: 50%;
+}
+
+/* klo mw pake footer */
+/* .footer {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  border: 3px solid red;
+  height: 10vh;
+  width: 99.2vw;
+}
+
+.logo {
+  display: flex;
+  position: relative;
+  gap: 25px;
+}
+
+.logo li {
+  position: relative;
+  list-style: none;
+  width: 60px;
+  height: 60px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 60px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.logo li::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 60px;
+  background: linear-gradient(45deg, var(--i), var(--j));
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.logo li::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 60px;
+  background: linear-gradient(45deg, var(--i), var(--j));
+  transition: 0.5s;
+  filter: blur(15px);
+  z-index: -1;
+  opacity: 0;
+}
+
+.logo li:hover {
+  width: 180px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+}
+
+.logo li:hover::before {
+  opacity: 1;
+}
+
+.logo li:hover::after {
+  opacity: 0.5;
+}
+
+.logo li ion-icon {
+  color: #777;
+  font-size: 1.75em;
+  transition: 0.5s;
+  transition-delay: 0.25s;
+}
+
+.logo li:hover ion-icon {
+  transform: scale(0);
+  color: #fff;
+  transition-delay: 0s;
+}
+
+.logo li span {
+  position: absolute;
+}
+
+.logo li .title {
+  color: #fff;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transform: scale(0);
+  transition: 0.5s;
+  transition-delay: 0s;
+}
+
+.logo li:hover .title {
+  transform: scale(1);
+  transition-delay: 0.25s;
+} */
