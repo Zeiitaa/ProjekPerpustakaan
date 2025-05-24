@@ -73,7 +73,6 @@ $data_buku = select("SELECT * FROM buku LIMIT 4");
   <!-- Gambar Depan -->
   <div class="Image">
     <div class="kartu">
-      <!-- <img src="images/Test6.png"> -->
     </div>
 
   </div>

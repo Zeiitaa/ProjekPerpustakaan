@@ -42,40 +42,40 @@ if (isset($_POST['tambah'])) {
 </head>
 
 <body>
-    <div class="kontener" style="background-image: url(../../images/TestBawah3.jpg); background-repeat: no-repeat;
+    <div class="kontener" style="background-image: url(../../images/depan5.png); background-repeat: no-repeat;
   background-size: cover; width:99.2vw; height:100vh; opacity:85%;">
 
         <div class="card bg-transparent position-absolute top-50 start-50 translate-middle shadow-lg"
             style="padding:2em; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(20px); border-radius: 2em; padding: 3em 5em; width:35vw; height: 99.2vh;">
 
-            <h1 style="text-align:center; color:#9EC6F3;">Tambah Buku Baru</h1>
+            <h1 style="text-align:center; color:black;">Tambah Buku Baru</h1>
             <form action="" method="POST"><br>
-                <label style="color:white;" for="id_kategori">Kategori Buku</label>
+                <label style="color:black;" for="id_kategori">Kategori Buku</label>
                 <select class="form-control" name="id_kategori"required>
                     <?php foreach($data_kategori as $kategori): ?>
                         <option value="<?=$kategori['id_kategori']?>"><?=$kategori['nama'];?></option>
                     <?php endforeach;?>
                 </select>
                 <br>
-                <label style="color:#F8F8E1;" for="judul">Judul Buku</label>
+                <label style="color:black;" for="judul">Judul Buku</label>
                 <input class="form-control" type="text" name="judul" required>
                 <br>
-                <label style="color:#F8F8E1;" for="pengarang">Pengarang</label>
+                <label style="color:black;" for="pengarang">Pengarang</label>
                 <input class="form-control" type="text" name="pengarang" required>
                 <br>
-                <label style="color:#F8F8E1;" for="deskripsi">Deskripsi Buku</label>
+                <label style="color:black;" for="deskripsi">Deskripsi Buku</label>
                 <input class="form-control" type="text" name="deskripsi" required>
                 <br>
-                <label style="color:#;" for="tahun_terbit">Tahun Terbit</label>
+                <label style="color:black;" for="tahun_terbit">Tahun Terbit</label>
                 <input class="form-control" type="text" name="tahun_terbit" required>
                 <br>
-                <label style="color:#;" for="jumlah">Jumlah</label>
+                <label style="color:black;" for="jumlah">Jumlah</label>
                 <input class="form-control" type="text" name="jumlah" required>
                 <br>
-                <label style="color:#;" for="gambar">Gambar</label>
+                <label style="color:black;" for="gambar">Gambar</label>
                 <input class="form-control" type="text" name="gambar" required>
                 <br>
-                <label style="color:;" for="readtime">Read Time</label>
+                <label style="color:black;" for="readtime">Read Time</label>
                 <input class="form-control" type="text" name="readtime" required>
 
                 <br><br>

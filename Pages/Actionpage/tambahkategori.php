@@ -47,7 +47,7 @@ if (isset($_POST['tambah']) && isset($_GET['role'])) {
 </head>
 
 <body>
-    <div class="kontener" style="background-image: url(../../images/TestBawah3.jpg); background-repeat: no-repeat;
+    <div class="kontener" style="background-image: url(../../images/depan5.png); background-repeat: no-repeat;
   background-size: cover; width:100vw; height:100vh; opacity:90%;">
 
         <div class="card bg-transparent  position-absolute top-50 start-50 translate-middle shadow-lg"
@@ -55,7 +55,7 @@ if (isset($_POST['tambah']) && isset($_GET['role'])) {
 
             <h1 style="text-align:center">Tambah <BR> Kategori Baru</h1>
             <form action="" method="POST"><br>
-                <label style="color:white;" for="nama">Nama Kategori Baru</label>
+                <label style="color:black;" for="nama">Nama Kategori Baru</label>
                 <input class="form-control" type="text" name="nama" required>
                 <br>
 

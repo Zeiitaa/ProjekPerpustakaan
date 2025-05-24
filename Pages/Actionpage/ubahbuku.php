@@ -52,35 +52,35 @@ if (isset($_GET['id']) && isset($_GET['path'])) {
         <div class="card bg-transparent  position-absolute top-50 start-50 translate-middle shadow-lg"
             style="padding:3.2em; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(20px); border-radius: 3em;">
             
-            <h1 style="text-align:center">Ubah Kategori</h1>
+            <h1 style="text-align:center">Ubah Buku</h1>
             <form action="" method="POST">
             <input type="hidden" name="id" value="<?= $data_buku['id']; ?>">
-            <label style="color:white;" for="id_kategori">Kategori Buku</label>
+            <label style="color:black;" for="id_kategori">Kategori Buku</label>
                 <select class="form-control" name="id_kategori"required>
                     <?php foreach($data_kategori as $kategori): ?>
                         <option value="<?=$kategori['id_kategori']?>"><?=$kategori['nama'];?></option>
                     <?php endforeach;?>
                 </select>
                 <br>
-                <label style="color:#F8F8E1;" for="judul">Judul Buku</label>
+                <label style="color:black;" for="judul">Judul Buku</label>
                 <input class="form-control" type="text" name="judul" value="<?= $data_buku['judul'];?>" required>
                 <br>
-                <label style="color:#F8F8E1;" for="pengarang">Pengarang</label>
+                <label style="color:black;" for="pengarang">Pengarang</label>
                 <input class="form-control" type="text" name="pengarang" value="<?= $data_buku['pengarang'];?>" required>
                 <br>
-                <label style="color:#F8F8E1;" for="deskripsi">Deskripsi Buku</label>
+                <label style="color:black;" for="deskripsi">Deskripsi Buku</label>
                 <input class="form-control" type="text" name="deskripsi" value="<?= $data_buku['deskripsi'];?>" required>
                 <br>
-                <label style="color:#;" for="tahun_terbit">Tahun Terbit</label>
+                <label style="color:black;" for="tahun_terbit">Tahun Terbit</label>
                 <input class="form-control" type="text" name="tahun_terbit" value="<?= $data_buku['tahun_terbit'];?>" required>
                 <br>
-                <label style="color:#;" for="jumlah">Jumlah</label>
+                <label style="color:black;" for="jumlah">Jumlah</label>
                 <input class="form-control" type="text" name="jumlah" value="<?= $data_buku['jumlah'];?>" required>
                 <br>
-                <label style="color:#;" for="gambar">Gambar</label>
+                <label style="color:black;" for="gambar">Gambar</label>
                 <input class="form-control" type="text" name="gambar" value="<?= $data_buku['gambar'];?>" required>
                 <br>
-                <label style="color:;" for="readtime">Read Time</label>
+                <label style="color:black;" for="readtime">Read Time</label>
                 <input class="form-control" type="text" name="readtime" value="<?= $data_buku['readtime'];?>" required>
                 <br> <br>
                 
